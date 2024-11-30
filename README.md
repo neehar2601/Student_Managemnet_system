@@ -3,7 +3,22 @@
 This project is a Java-based Student Information System that connects to an MS SQL database using JDBC.
 
 ## File Structure
-StudentInformationSystem/ │ ├── src/ │ └── com_241047020/ │ ├── Student.java │ ├── StudentDAO.java │ ├── StudentDAOImpl.java │ ├── StudentNotFoundException.java │ └── StudentManagementApp.java │ ├── db.properties ├── lib/ │ └── mssql-jdbc-<version>.jar ├── schema.sql └── README.md
+```plaintext
+StudentInformationSystem/
+│
+├── src/
+│   └── com_241047020/
+│       ├── Student.java
+│       ├── StudentDAO.java
+│       ├── StudentDAOImpl.java
+│       ├── StudentNotFoundException.java
+│       └── StudentManagementApp.java
+│
+├── db.properties
+├── lib/
+│   └── mssql-jdbc-<version>.jar
+├── schema.sql
+└── README.md
 
 
 
